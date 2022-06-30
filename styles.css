@@ -1,0 +1,59 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.title {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.definition {
+  color: #488fb1;
+  color: black;
+  margin-top: 50px;
+  font-size: x-large;
+}
+
+.example {
+  color: #488fb1;
+  color: black;
+  margin-top: 50px;
+  font-size: x-large;
+}
+
+.stringInput {
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 0px;
+  padding-bottom: 80px;
+
+  font-size: x-large;
+  background-color: #eef2ff;
+}
+
+.output {
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 0px;
+  padding-bottom: 80px;
+
+  background-color: #e4f9f5;
+}

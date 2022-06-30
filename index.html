@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longest Common Subsequence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <script src="index.js">
+    </script>
+</head>
+
+<body>
+    <div class="title">
+        <div>
+            <h1>Longest Common Subsequence</h1>
+            <p class="definition">
+                LCS is the length of longest subsequence present in given two strings that appears in the same relative
+                order,<br>but not necessarily contiguous.
+            </p>
+            <p class="example">
+                Examples: <br>
+                LCS for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3. <br>
+                LCS for input Sequences “BDCB” and “BACDB” is “BCB” of length 3.
+            </p>
+        </div class="Title-text">
+        <img src="WhatsApp Image 2022-04-08 at 09.44.08.jpeg" alt="IMG" style="margin-top: 50px">
+    </div>
+
+
+    <div class="stringInput">
+        <p>Enter Strings <br></p>
+
+        String 1 <input type="text" id="str1" style="margin-bottom: 10px;"> <br>
+        String 2 <input type="text" id="str2" style="margin-bottom: 10px;"><br>
+        <input type="submit" onclick="fn1()" id="btn" value="Submit Now">
+    </div>
+
+    <div class="output">
+        <h2>Output</h2><br>
+        <h2 id="length"></h2><br>
+        <h2 id="Csubsequence"></h2><br>
+        <!-- <h2 id="dp"></h2><br> -->
+    </div>
+
+</body>
+
+</html>
